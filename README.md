@@ -1,1 +1,1 @@
-## Capstone1
+## This is a multi-page personal website built using HTML to demonstrate fundamental web development skills learned so far. The website includes multiple pages, tables, forms, images, links, and semantic HTML5 elements.
