@@ -1,4 +1,72 @@
 <!DOCTYPE html>
 <html>
-    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact Jamal Izabakarov">
+    <meta name="author" content="Jamal">
+    <title>Contact Me</title>
+    <link rel="icon" href="images/fav.png" type="image/png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./education.html">Education</a>
+            <a href="./schedule.html">Schedule</a>
+            <a href="./questionnaire.html">Questionnaire</a>
+        </nav>
+        <h1>Contact Me</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <form action="mailto:jizabakarov8@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject"><br><br>
+
+                <p>Preferred contact method:</p>
+                <input type="radio" id="contactEmail" name="contactMethod" value="Email" checked>
+                <label for="contactEmail">Email</label><br>
+                <input type="radio" id="contactPhone" name="contactMethod" value="Phone">
+                <label for="contactPhone">Phone</label><br><br>
+
+                <p>Interested in:</p>
+                <input type="checkbox" id="newsletter" name="interests" value="Newsletter">
+                <label for="projects">Projects</label><br>
+                <input type="checkbox" id="projects" name="interests" value="Projects">
+                <label for="Other">Other</label><br><br>
+
+                <label for="reason">Reason for contact:</label><br>
+                <select id="reason" name="reason">
+                    <option value="general">General Inquiry</option>
+                    <option value="collab">Collaboration</option>
+                </select><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="40"></textarea><br>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+
+        <section>
+            <h2>Connect with me</h2>
+            <p>Check out my professional profile on <a href="https://www.linkedin.com/in/izabakarovj/" target="_blank">LinkedIn</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>2025 Jamal Izabakarov</p>
+    </footer>
+
+</body>
 </html>
