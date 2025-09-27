@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Questionnaire for Jamal Izabakarov's personal website">
+    <meta name="author" content="Jamal">
+    <title>Questionnaire</title>
+    <link rel="icon" href="images/fav.png" type="image/png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./education.html">Education</a>
+            <a href="./schedule.html">Schedule</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+        <h1>Questionnaire</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Tell me about yourself!</h2>
+            <form action="mailto:jizabakarov8@gmail.com" method="post" enctype="text/plain">
+                
+                <p>Do you enjoy programming?</p>
+                <input type="radio" id="progYes" name="programming" value="Yes" checked>
+                <label for="progYes">Yes</label>
+                <input type="radio" id="progNo" name="programming" value="No">
+                <label for="progNo">No</label><br><br>
+
+                <p>Which programming languages do you know? (Select all that apply)</p>
+                <input type="checkbox" id="python" name="languages" value="Python">
+                <label for="python">Python</label><br>
+                <input type="checkbox" id="javascript" name="languages" value="JavaScript">
+                <label for="javascript">JavaScript</label><br>
+                <input type="checkbox" id="cpp" name="languages" value="C++">
+                <label for="cpp">C++</label><br>
+                <input type="checkbox" id="java" name="languages" value="Java">
+                <label for="java">Java</label><br><br>
+
+                <label for="experience">Your experience level:</label><br>
+                <select id="experience" name="experience">
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Advanced">Advanced</option>
+                </select><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>2025 Jamal Izabakarov</p>
+    </footer>
+</body>
+
+</html>
